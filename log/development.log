@@ -64,3 +64,17 @@ Cannot render console from 71.190.202.18! Allowed networks: 127.0.0.1, ::1, 127.
 
 Started GET "/assets/hello.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 71.190.202.18 at 2017-11-27 13:51:47 +0000
 Cannot render console from 71.190.202.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 71.190.202.18 at 2017-11-27 14:02:50 +0000
+Cannot render console from 71.190.202.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/railties-4.2.3/lib/rails/templates/rails/welcome/index.html.erb (2.2ms)
+Completed 200 OK in 20ms (Views: 10.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/hello_world" for 71.190.202.18 at 2017-11-27 14:02:52 +0000
+Cannot render console from 71.190.202.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticController#hello_world as HTML
+  Rendered static/hello_world.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 149ms (Views: 148.4ms | ActiveRecord: 0.0ms)
