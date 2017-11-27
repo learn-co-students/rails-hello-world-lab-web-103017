@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+
+  get 'hello_world', to: 'static#hello_world'
+  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+end
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
@@ -53,4 +57,3 @@ Rails.application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
-end
