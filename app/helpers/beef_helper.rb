@@ -1,0 +1,2 @@
+module BeefHelper
+end

@@ -1,0 +1,2 @@
+class BeefController < ApplicationController
+end
